@@ -14,6 +14,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <scm>
+        <url>https://github.com/saarthak-gupta-architect/test-repository</url>
+        <connection>scm:git:git://github.com/saarthak-gupta-architect/test-repository.git</connection>
+        <developerConnection>scm:git:git@github.com:saarthak-gupta-architect/test-repository.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>central</id>
