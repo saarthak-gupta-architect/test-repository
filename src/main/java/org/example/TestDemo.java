@@ -25,4 +25,9 @@ public class TestDemo {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "TestDemo{" + "name='" + name + '\'' + ", phoneNumber='" + phoneNumber + '\'' + '}';
+    }
 }
